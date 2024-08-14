@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     padding: 0px;
 }
@@ -212,12 +211,6 @@ hr{
     background-color:#e1e1e1a0;
     letter-spacing: 1.5px;
 }
-@media (min-width:200px) and (max-width:400px){
-    #div7{
-        font-size: small;
-        padding:8px;
-    }
-}
 ul{
     list-style-type:none;
     line-height: 35px;
@@ -250,17 +243,6 @@ li{
     letter-spacing: 1.5px;
     padding:10px 25px 10px 25px;
     text-align: left;
-}
-@media(min-width:200px)and(max-width:400px){
-    #feedback{
-        border-radius: 20px 20px 20px 20px;
-        background-image: url("7.jpg");
-        background-position: center;
-        background-size: cover;
-        color:rgb(102, 49, 171) ;
-        font-size:7px;
-
-    }
 }
 .div8{
     border-radius: 50%;
@@ -312,7 +294,6 @@ li{
     width: 100vw;
     top: 0%;
     border-bottom: 0.3px solid #a09e9893;
-    /*box-shadow: 8px 3px 3px #a09e9893,0 0 1em #ffffff,0 0 0.8em #06402b;*/
 }
 #nav_link1{
     text-decoration: none;
@@ -340,260 +321,16 @@ li{
     padding-left: 15px;
     bottom: 20px;
     text-decoration:none;    
-=======
-*{
-    padding: 0px;
 }
-html{
-    scrollbar-width: none;
-    scrollbar-color: auto;
-}
-#logo_text{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 25px;
-    text-shadow: none;
-}
-h1{
-    font-weight: 900px;
-    font-size: 32px;
-    color:#be8400;
-}
-@media (min-width:200px) and (max-width:400px){
-    h1{
-        font-size: normal;
-    }
-}
-#div1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 6%;
-    margin-bottom: 6%;
-}
-body{
-    box-sizing: border-box;
-    text-align: center;
-    align-content: start;
-    min-height: 100vh;
-    max-width: 100vw;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    min-height: 100vh;
-    min-width:fit-content;
-    font-family: sans-serif;
-    background-color:white;
-    color:black;
-}
-form{
-    line-height: 40px;
-    font-size: 18px;
-    font-family:sans-serif;
-    border:1.2px solid darkgoldenrod ;
-    border-radius: 20px 170px 20px 155px;
-    text-align: center;
-    padding: 3em;
-    backdrop-filter: blur(15px);
-    color: black;
-    background-color: white;
-    backdrop-filter: blur(90px);
-}
-form:hover{
-    box-shadow:  3px 3px #a09e9893,0 0 1em #ffffff,0 0 0.8em #06402b;
-}
-form:focus-within{ 
-    color: #5aa9ec;
-    box-shadow:  3px 3px #a09e9893,0 0 1em #ffffff,0 0 0.8em #06402b;
-}
-input:focus{
-    width:;
-    color: white;
-    background-color: #5aa9e6;
-    font-size: 20px;
-}
-button{
-    font-size:20px;
-    background-color: #5aa9ec;
-    border-radius: 40px 200px 200px 200px;
-    padding: 5px 10px;
-    margin: 10px;
-    color: white;
-    border-color:#ffffff;
-}
-#name{
-    font-size: 16px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    border-color: white;
-    padding: 5px 5px;
-    color: black;
-}
-#mail{
-    font-size: 16px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border-radius: 15px;
-    padding: 5px 5px;
-    border-color: white;
-    color: black;
-}
-#password{
-    font-size: 16px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    padding: 5px 5px;
-    border-color: white;
-    color: black;
-}
-#placeholder{
-    color: white;
-}
-footer{
-    font-size:20px;
-    font-weight: 900px;
-    backdrop-filter: blur(18px);
-    font-style: bold;
-    position: inherit;
-    text-align: center;
-    padding: 6px 0px 6px 0px;
-}
-.footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-}
-.privacy{
-    justify-content: flex-start;
-}
-/*.withlove{
-    justify-content: center;
-}*/;
-#div2{
-    font: 1em sans-serif;
-    text-shadow:6px 3px 6px rgb(112, 218, 220), 0 0 1em rgba(135, 96, 244, 0.997), 0 0 0.2em rgba(62, 199, 214, 0.74);
-    color: black;
-}
-#div3{
-    background-color: white;
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration:0px #364bc5 overline;
-    color: darkgoldenrod;
-}
-#div4{
-    border-radius: 10px 10px 10px 10px;
-    display: inline-block;
-    justify-content: center;
-    width: fit-content;
-    background-color: rgba(255, 255, 255, 0.749);
-    padding: 5px;
-    margin-top: 10px;
-    backdrop-filter: blur(90px);
-}
-/*#join_us_on:hover{
-    animation: join_us 3s ease-in-out 0s infinite normal;
-}
-@keyframes join_us{
-    0%{color:red;}
-    100%{color:blue;}
-}
-a:hover{
-    transform: translatey(10px);
-}*/
-a{
-    color: black;
-    text-decoration: none;
-    margin: 0px 10px 0px 10px;
-}
-#sec{
-    min-height: 100vh;
-    min-width:fit-content;
-    background-color: white;
-    margin-bottom: 0em;
-}
-#sec2{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 100%;
-    bottom:0%;
-    position: relative;
-    width: 100vw;
-    background-color: white;
-}
-svg{
-    height: 36px;
-    width: 36px;
-}
-hr{
-    margin: 20px 5% 20px 5%;
-    border:1px solid #5aa9e6;
-}
-.sec_break{
-    margin: 0;
-}
-#div6{
-    text-align: left;
-    font-size: 15px;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#div7{
-    backdrop-filter: blur(9px);
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 20px 20px 20px 20px;
-    font-size: 20px;
-    background-color:#e1e1e1a0;
-    letter-spacing: 1.5px;
-}
-@media (min-width:200px) and (max-width:400px){
+
+/* All @media Queries Here*/
+@media (max-width:400px){
     #div7{
         font-size: small;
         padding:8px;
     }
 }
-ul{
-    list-style-type:none;
-    line-height: 35px;
-}
-li{
-    align-self: center;
-    padding: 5px 20px 5px 20px;
-}
-#feedback{
-    border-radius: 20px 20px 20px 20px;
-    background-image: linear-gradient(rgba(255,255,255,0.5),#e1e1e1);
-    scrollbar-width: none;
-    font-size: 20px;
-    width: 90%;
-    padding: 5px 10px 5px 10px;
-    color:black;
-    border: none;
-    text-align: left;
-}
-#div9{
-    backdrop-filter: blur(9px);
-    padding: 10px 10px ;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 20px 20px 20px 20px;
-    line-height: 45px;
-    color:black;
-    background-color: #e1e1e1a0;
-    font-size: 20px;
-    letter-spacing: 1.5px;
-    padding:10px 25px 10px 25px;
-    text-align: left;
-}
-@media(min-width:200px)and(max-width:400px){
+@media (max-width:400px){
     #feedback{
         border-radius: 20px 20px 20px 20px;
         background-image: url("7.jpg");
@@ -603,84 +340,4 @@ li{
         font-size:7px;
 
     }
-}
-.div8{
-    border-radius: 50%;
-    align-self: center;
-    border: 0px solid #e1e1e1a0;
-}
-.div8:hover{
-    animation:  logofooter 1s ease-out 0s 1 normal;
-}
-@keyframes logofooter {
-    0%{
-    border: 4px solid #e1e1e155;
-    }
-    100%{
-    border: 6px solid #e1e1e1;
-    }
-}
-.logofooter{
-    background-color: #ffffff;
-    border-radius: 50%;
-    font-weight: 900;
-    color: #000000;
-    font-style: normal;
-    font-size: 25px;
-    padding: 10px;
-    align-self: center;/*for align within own div*/
-    font-size: fit-width;
-    border:5px double #be8400;
-    height: 150px;
-    width: 150px;
-    text-align: center;
-    align-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-.signupbar{
-    font-size: 25px;
-    font-weight: 900px;
-    background-color: rgba(255,255,255,.72);
-    backdrop-filter:saturate(180%) blur(20px);
-    color: black;
-    text-align: left;
-    position:sticky;
-    top: 0;
-    z-index: 99;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100vw;
-    top: 0%;
-    border-bottom: 0.3px solid #a09e9893;
-    /*box-shadow: 8px 3px 3px #a09e9893,0 0 1em #ffffff,0 0 0.8em #06402b;*/
-}
-#nav_link1{
-    text-decoration: none;
-    align-content: center;
-    padding:  0 1em 0 1em;
-}
-#nav_link1:hover{
-    background-color: #5aa9ec;
-    color: white;
-}
-#nav_link1:active{
-    background-color: #5aa9ec;
-    color: white;
-}
-#contactus{
-    height: 35px;
-    width: 35px;
-    box-shadow: 8px 3px 3px darkgoldenrod,0 0 1em #ffffff,0 0 0.5em #5aa9ec;
-    border-radius: 30px;
-    padding: 5px 20px 5px 20px;
-    margin-right: 15px;
-}
-.list_items{
-    position:relative;
-    padding-left: 15px;
-    bottom: 20px;
-    text-decoration:none;    
->>>>>>> 1d2353d33b02f89086359f9407d762996c130872
 }
