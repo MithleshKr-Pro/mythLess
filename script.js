@@ -36,15 +36,66 @@
 //     grades="F"
 // }
 // console.log("Grade Obtained =",grades); 
-for (let count=1;count<=5;count++){
-    console.log("Apna College"); 
+//
+
+let marks=[85,97,44,37,76,60];
+//arrays used for   same type of data
+console.log(marks);
+console.log(marks.length);
+let heroes=['ironman','thor','hulk','ironman'];
+console.log(heroes);
+console.log(heroes[0]);
+console.log(marks[0]);
+console.log(heroes[3]);
+console.log(heroes[1]);
+console.log(heroes[0]);
+console.log(heroes[0]);
+console.log(heroes[0]);
+console.log(heroes[0]);
+console.log(heroes[0]);
+console.log(heroes[0]);
+console.log(heroes[0]);
+marks[0]=45;
+console.log(marks);
+for (let idx=0;idx<marks.length;idx++){
+    console.log(marks[idx]);
 }
-for (let count=1;count<=5;count++){
-    console.log("Sum of first 5 Numbers =",count=count+count);
+for (let i=0;i<heroes.length;i++){
+    console.log(heroes[i]);
 }
-//sum of first 5 no.
+//for of
+for (let hero of heroes){
+    console.log(hero);
+}
+let cities=['Delhi','Pune','Mumbai','Hyderabad','Chennai','Kolkata'];
+for (let city of cities){
+    console.log(city.toUpperCase());
+}
+let marks2=[85,97,44,37,76,60];
+let Sum=0;
+for (let i=0;i<marks2.length;i++){
+    Sum=Sum+marks2[i];
+}
+console.log("Sum of Marks= ",Sum);
+console.log('Average Marks= ',Sum/marks2.length);
+//for of
 let sum=0;
-for (let i=1;i<=5;i++){
-    sum=sum+i;
+for (let val of marks2){
+    sum+=val;
 }
-console.log(sum);
+console.log("Sum Of Marks=",sum)
+console.log("Avg Marks=",sum/marks2.length);
+let Avg=sum/marks2.length;
+console.log(`AVg Marks = ${Avg}`);
+//Q No-2
+let price=[250,645,300,900,50];
+let price2=[]
+for (let i of price){
+    i=i-(i*0.1);
+    console.log(i);
+    //price[i]=i-i*0.1;
+    for (let idx of price){
+        price[idx]=i;
+    }
+}
+console.log(price);
