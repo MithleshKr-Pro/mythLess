@@ -295,3 +295,7 @@ let prodArray=newArray.reduce((prev,curr)=>{
     return prev*curr;
 })
 console.log('factorial =',prodArray);
+let btn=document.querySelectorAll("button");
+console.log(btn);
+console.dir(btn);
+btn      
