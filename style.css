@@ -53,11 +53,11 @@ form{
     border:1.2px solid darkgoldenrod ;
     border-radius: 20px 170px 20px 155px;
     text-align: center;
-    padding: 3em;
     backdrop-filter: blur(15px);
     color: black;
     background-color: white;
     backdrop-filter: blur(90px);
+    padding: 3em;
 }
 form:hover{
     box-shadow:  3px 3px #a09e9893,0 0 1em #ffffff,0 0 0.8em #06402b;
@@ -171,6 +171,11 @@ a{
     min-width:fit-content;
     background-color: white;
     margin-bottom: 0em;
+}
+#div1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
 }
 #sec2{
     background-size: cover;

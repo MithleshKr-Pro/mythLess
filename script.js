@@ -37,7 +37,7 @@
 //     grades="F"
 // }
 // console.log("Grade Obtained =",grades); 
-//
+
 
 // let marks=[85,97,44,37,76,60];
 // //arrays used for   same type of data
@@ -145,7 +145,7 @@
 // companies.push('Amazon');
 // console.log('Companies : ',companies.toString());
 
-//Chapter 5 Functions
+// Chapter 5 Functions
 
 // function myFunction(msg){
 //     console.log("Welcome to Apna College!! ");
@@ -285,7 +285,7 @@
 //     newArray[i-1]=i;
 // }
 // console.log(newArray);
-//practiceQ5
+// practiceQ5
 // let sumArray=newArray.reduce((prev,curr)=>{
 //     return prev+curr;
 // })
