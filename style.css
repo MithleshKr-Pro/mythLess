@@ -176,6 +176,8 @@ a{
     position: absolute;
     left: 50%;
     transform: translate(-50%,0);
+    padding: 0 0 2em 0; 
+    margin:  2em 0;
 }
 #sec2{
     background-size: cover;
@@ -249,7 +251,7 @@ li{
     padding:10px 25px 10px 25px;
     text-align: left;
 }
-.div8{
+/* .div8{
     border-radius: 50%;
     align-self: center;
     border: 0px solid #e1e1e1a0;
@@ -264,7 +266,7 @@ li{
     100%{
     border: 6px solid #e1e1e1;
     }
-}
+} */
 .logofooter{
     background-color: #ffffff;
     border-radius: 50%;
