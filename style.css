@@ -181,7 +181,6 @@ footer{
     display: inline-block;
     justify-content: center;
     width: fit-content;
-    background-color: rgba(255, 255, 255, 0.749);
     padding: 5px;
     margin-top: 10px;
     backdrop-filter: blur(90px);
@@ -260,6 +259,9 @@ ul{
 li{
     align-self: center;
     padding: 5px 20px 5px 20px;
+}
+#div8{
+    align-self: center;
 }
 #feedback{
     border-radius: 20px 20px 20px 20px;
