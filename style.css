@@ -46,6 +46,41 @@ body{
     background-color:white;
     color:black;
 }
+.front_font{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 7rem;
+    font-size: 72px;
+    letter-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.top_content{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100vw;
+    left: 0%;
+    right: 0%;
+    color: #000000;
+    background-color: #e1e1e1a0;
+}
+.top_social2{
+    position: relative;
+    letter-spacing: 2px;
+    top: 0.9rem;
+}
+.top_social_conten{
+    height: 25px;
+    position: relative;
+    bottom: 0;
+    max-width: fit-content;
+}
+.social_content{
+    height: 18px;
+    width: 18px;
+}
 form{
     line-height: 40px;
     font-size: 18px;
@@ -272,18 +307,45 @@ li{
     border-radius: 50%;
     font-weight: 900;
     color: #000000;
-    font-style: normal;
-    font-size: 25px;
-    padding: 10px;
+    padding: 1em 1em 1.5em 1em;
     align-self: center;/*for align within own div*/
-    font-size: fit-width;
-    border:5px double #be8400;
-    height: 150px;
-    width: 150px;
+    border:2px solid #be8400;
+    height: 4em;
+    width: 4.5em;
     text-align: center;
     align-content: center;
     font-family: Arial, Helvetica, sans-serif;
-
+    margin: 2em;
+}
+.logo_letter1{
+    font-size: 3em;
+    line-height: 0.8em;
+}
+.logo_letter2{
+    font-size: 2em;
+    line-height: .01em;
+}
+.top_logo{
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-weight: 900;
+    color: #000000;
+    padding: .01em 0.01em .015em .01em;
+    align-self: center;/*for align within own div*/
+    border:2px solid #be8400;
+    height: 1.8em;
+    width: 1.8em;
+    text-align: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top_logo_letter1{
+    font-size: .9em;
+    line-height: .8em;
+}
+.top_logo_letter2{
+    font-size: .4em;
+    line-height: .01em;
 }
 .signupbar{
     font-size: 25px;
@@ -332,12 +394,6 @@ li{
 
 /* All @media Queries Here*/
 @media (max-width:400px){
-    #div7{
-        font-size: small;
-        padding:8px;
-    }
-}
-@media (max-width:400px){
     #feedback{
         border-radius: 20px 20px 20px 20px;
         background-image: url("7.jpg");
@@ -346,5 +402,9 @@ li{
         color:rgb(102, 49, 171) ;
         font-size:7px;
 
+    }
+    #div7{
+        font-size: small;
+        padding:8px;
     }
 }
