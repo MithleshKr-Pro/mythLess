@@ -85,7 +85,7 @@ form{
     line-height: 40px;
     font-size: 18px;
     font-family:sans-serif;
-    border:1.2px solid darkgoldenrod ;
+    border:1.2px solid #a09e9893 ;
     border-radius: 20px 170px 20px 155px;
     text-align: center;
     backdrop-filter: blur(15px);
@@ -322,6 +322,7 @@ li{
 .logo_letter1{
     font-size: 3em;
     line-height: 0.8em;
+    color: dodgerblue;
 }
 .logo_letter2{
     font-size: 2em;
